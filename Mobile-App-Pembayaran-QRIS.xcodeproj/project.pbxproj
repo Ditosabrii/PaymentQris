@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3860FCF1E856FDB0AE497B21 /* Pods_Mobile_App_Pembayaran_QRIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8779DC9BBCBF4C5BF5FB11 /* Pods_Mobile_App_Pembayaran_QRIS.framework */; };
 		491F695D2AD18FBA00204C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F695C2AD18FBA00204C76 /* AppDelegate.swift */; };
 		491F695F2AD18FBA00204C76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F695E2AD18FBA00204C76 /* SceneDelegate.swift */; };
 		491F69612AD18FBA00204C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F69602AD18FBA00204C76 /* ViewController.swift */; };
-		491F69642AD18FBA00204C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491F69622AD18FBA00204C76 /* Main.storyboard */; };
 		491F69662AD18FBC00204C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491F69652AD18FBC00204C76 /* Assets.xcassets */; };
 		491F69692AD18FBC00204C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491F69672AD18FBC00204C76 /* LaunchScreen.storyboard */; };
+		49BD79BD2AD2715D00C89001 /* QrScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79BC2AD2715D00C89001 /* QrScanViewController.swift */; };
+		49BD79BF2AD271B200C89001 /* QRScanIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79BE2AD271B200C89001 /* QRScanIntractor.swift */; };
+		49BD79C12AD271D700C89001 /* QRScanPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79C02AD271D700C89001 /* QRScanPresenter.swift */; };
+		49BD79C32AD271FD00C89001 /* QrScanEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79C22AD271FD00C89001 /* QrScanEntity.swift */; };
+		49BD79C52AD2721F00C89001 /* QRScanRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79C42AD2721F00C89001 /* QRScanRouter.swift */; };
+		49BD79C72AD2723600C89001 /* QRScanProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79C62AD2723600C89001 /* QRScanProtocol.swift */; };
+		49BD79CC2AD2741200C89001 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79CB2AD2741200C89001 /* PaymentView.swift */; };
+		49BD79CE2AD2747100C89001 /* PaymentIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79CD2AD2747100C89001 /* PaymentIntractor.swift */; };
+		49BD79D02AD2748D00C89001 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79CF2AD2748D00C89001 /* PaymentPresenter.swift */; };
+		49BD79D22AD274AA00C89001 /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79D12AD274AA00C89001 /* PaymentRouter.swift */; };
+		49BD79D42AD274C400C89001 /* PaymentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD79D32AD274C400C89001 /* PaymentProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		474D7FAEC38EA79BD8A9FED0 /* Pods-Mobile-App-Pembayaran-QRIS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-App-Pembayaran-QRIS.debug.xcconfig"; path = "Target Support Files/Pods-Mobile-App-Pembayaran-QRIS/Pods-Mobile-App-Pembayaran-QRIS.debug.xcconfig"; sourceTree = "<group>"; };
 		491F69592AD18FBA00204C76 /* Mobile-App-Pembayaran-QRIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile-App-Pembayaran-QRIS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491F695C2AD18FBA00204C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		491F695E2AD18FBA00204C76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		491F69602AD18FBA00204C76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		491F69632AD18FBA00204C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		491F69652AD18FBC00204C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491F69682AD18FBC00204C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		491F696A2AD18FBC00204C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BD79BC2AD2715D00C89001 /* QrScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrScanViewController.swift; sourceTree = "<group>"; };
+		49BD79BE2AD271B200C89001 /* QRScanIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanIntractor.swift; sourceTree = "<group>"; };
+		49BD79C02AD271D700C89001 /* QRScanPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanPresenter.swift; sourceTree = "<group>"; };
+		49BD79C22AD271FD00C89001 /* QrScanEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrScanEntity.swift; sourceTree = "<group>"; };
+		49BD79C42AD2721F00C89001 /* QRScanRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanRouter.swift; sourceTree = "<group>"; };
+		49BD79C62AD2723600C89001 /* QRScanProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanProtocol.swift; sourceTree = "<group>"; };
+		49BD79CB2AD2741200C89001 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		49BD79CD2AD2747100C89001 /* PaymentIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentIntractor.swift; sourceTree = "<group>"; };
+		49BD79CF2AD2748D00C89001 /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
+		49BD79D12AD274AA00C89001 /* PaymentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRouter.swift; sourceTree = "<group>"; };
+		49BD79D32AD274C400C89001 /* PaymentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentProtocol.swift; sourceTree = "<group>"; };
+		5D8779DC9BBCBF4C5BF5FB11 /* Pods_Mobile_App_Pembayaran_QRIS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_App_Pembayaran_QRIS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5231437785D4BEDA5FACFAD /* Pods-Mobile-App-Pembayaran-QRIS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-App-Pembayaran-QRIS.release.xcconfig"; path = "Target Support Files/Pods-Mobile-App-Pembayaran-QRIS/Pods-Mobile-App-Pembayaran-QRIS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3860FCF1E856FDB0AE497B21 /* Pods_Mobile_App_Pembayaran_QRIS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				491F695B2AD18FBA00204C76 /* Mobile-App-Pembayaran-QRIS */,
 				491F695A2AD18FBA00204C76 /* Products */,
+				D2DC7CC6FBDFBF7B167633AB /* Pods */,
+				E6699ACC97E4CFA03B5D3224 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,82 @@
 		491F695B2AD18FBA00204C76 /* Mobile-App-Pembayaran-QRIS */ = {
 			isa = PBXGroup;
 			children = (
-				491F695C2AD18FBA00204C76 /* AppDelegate.swift */,
-				491F695E2AD18FBA00204C76 /* SceneDelegate.swift */,
-				491F69602AD18FBA00204C76 /* ViewController.swift */,
-				491F69622AD18FBA00204C76 /* Main.storyboard */,
+				49BD79BB2AD2713800C89001 /* QRScanner */,
+				491F69702AD18FDA00204C76 /* SupportingFiles */,
 				491F69652AD18FBC00204C76 /* Assets.xcassets */,
-				491F69672AD18FBC00204C76 /* LaunchScreen.storyboard */,
 				491F696A2AD18FBC00204C76 /* Info.plist */,
 			);
 			path = "Mobile-App-Pembayaran-QRIS";
+			sourceTree = "<group>";
+		};
+		491F69702AD18FDA00204C76 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				491F69672AD18FBC00204C76 /* LaunchScreen.storyboard */,
+				491F695C2AD18FBA00204C76 /* AppDelegate.swift */,
+				491F695E2AD18FBA00204C76 /* SceneDelegate.swift */,
+				491F69602AD18FBA00204C76 /* ViewController.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		49BD79BB2AD2713800C89001 /* QRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				49BD79C82AD273E000C89001 /* Modules */,
+			);
+			path = QRScanner;
+			sourceTree = "<group>";
+		};
+		49BD79C82AD273E000C89001 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				49BD79C92AD273E800C89001 /* QRScan */,
+				49BD79CA2AD273FE00C89001 /* Payment */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		49BD79C92AD273E800C89001 /* QRScan */ = {
+			isa = PBXGroup;
+			children = (
+				49BD79BC2AD2715D00C89001 /* QrScanViewController.swift */,
+				49BD79BE2AD271B200C89001 /* QRScanIntractor.swift */,
+				49BD79C02AD271D700C89001 /* QRScanPresenter.swift */,
+				49BD79C22AD271FD00C89001 /* QrScanEntity.swift */,
+				49BD79C42AD2721F00C89001 /* QRScanRouter.swift */,
+				49BD79C62AD2723600C89001 /* QRScanProtocol.swift */,
+			);
+			path = QRScan;
+			sourceTree = "<group>";
+		};
+		49BD79CA2AD273FE00C89001 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				49BD79CB2AD2741200C89001 /* PaymentView.swift */,
+				49BD79CD2AD2747100C89001 /* PaymentIntractor.swift */,
+				49BD79CF2AD2748D00C89001 /* PaymentPresenter.swift */,
+				49BD79D12AD274AA00C89001 /* PaymentRouter.swift */,
+				49BD79D32AD274C400C89001 /* PaymentProtocol.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		D2DC7CC6FBDFBF7B167633AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				474D7FAEC38EA79BD8A9FED0 /* Pods-Mobile-App-Pembayaran-QRIS.debug.xcconfig */,
+				A5231437785D4BEDA5FACFAD /* Pods-Mobile-App-Pembayaran-QRIS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6699ACC97E4CFA03B5D3224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8779DC9BBCBF4C5BF5FB11 /* Pods_Mobile_App_Pembayaran_QRIS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 491F696D2AD18FBC00204C76 /* Build configuration list for PBXNativeTarget "Mobile-App-Pembayaran-QRIS" */;
 			buildPhases = (
+				0519A0AC2347E097CE92F6D7 /* [CP] Check Pods Manifest.lock */,
 				491F69552AD18FBA00204C76 /* Sources */,
 				491F69562AD18FBA00204C76 /* Frameworks */,
 				491F69572AD18FBA00204C76 /* Resources */,
@@ -127,34 +222,61 @@
 			files = (
 				491F69692AD18FBC00204C76 /* LaunchScreen.storyboard in Resources */,
 				491F69662AD18FBC00204C76 /* Assets.xcassets in Resources */,
-				491F69642AD18FBA00204C76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0519A0AC2347E097CE92F6D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile-App-Pembayaran-QRIS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		491F69552AD18FBA00204C76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BD79C12AD271D700C89001 /* QRScanPresenter.swift in Sources */,
+				49BD79C32AD271FD00C89001 /* QrScanEntity.swift in Sources */,
+				49BD79BD2AD2715D00C89001 /* QrScanViewController.swift in Sources */,
+				49BD79CE2AD2747100C89001 /* PaymentIntractor.swift in Sources */,
+				49BD79CC2AD2741200C89001 /* PaymentView.swift in Sources */,
 				491F69612AD18FBA00204C76 /* ViewController.swift in Sources */,
 				491F695D2AD18FBA00204C76 /* AppDelegate.swift in Sources */,
+				49BD79D02AD2748D00C89001 /* PaymentPresenter.swift in Sources */,
+				49BD79BF2AD271B200C89001 /* QRScanIntractor.swift in Sources */,
+				49BD79C52AD2721F00C89001 /* QRScanRouter.swift in Sources */,
+				49BD79D42AD274C400C89001 /* PaymentProtocol.swift in Sources */,
 				491F695F2AD18FBA00204C76 /* SceneDelegate.swift in Sources */,
+				49BD79D22AD274AA00C89001 /* PaymentRouter.swift in Sources */,
+				49BD79C72AD2723600C89001 /* QRScanProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		491F69622AD18FBA00204C76 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				491F69632AD18FBA00204C76 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		491F69672AD18FBC00204C76 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,16 +404,17 @@
 		};
 		491F696E2AD18FBC00204C76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 474D7FAEC38EA79BD8A9FED0 /* Pods-Mobile-App-Pembayaran-QRIS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UHS2D3YZY8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mobile-App-Pembayaran-QRIS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,16 +432,17 @@
 		};
 		491F696F2AD18FBC00204C76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5231437785D4BEDA5FACFAD /* Pods-Mobile-App-Pembayaran-QRIS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UHS2D3YZY8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mobile-App-Pembayaran-QRIS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
